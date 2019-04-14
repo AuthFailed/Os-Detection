@@ -31,7 +31,6 @@ namespace Environment_Detection
 
         async void osinfo()
         {
-
             char[] ch_osversion = ("Операционная система: " + Environment.OSVersion.ToString()).ToCharArray();
             foreach (char chars in ch_osversion)
             {
