@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
+using System.Management;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -30,8 +25,7 @@ namespace Environment_Detection
             {
                 await Task.Delay(5);
             }
-
-
+            button1.Enabled = true;
         }
 
         async void osinfo()
@@ -43,6 +37,7 @@ namespace Environment_Detection
                 label2.Text += chars;
                 await Task.Delay(12);
             }
+            button2.Enabled = true;
         }
 
         async void procmodel()
@@ -53,6 +48,7 @@ namespace Environment_Detection
                 label3.Text += chars;
                 await Task.Delay(12);
             }
+            button3.Enabled = true;
         }   
 
         async void razryad()
@@ -63,6 +59,7 @@ namespace Environment_Detection
                 label4.Text += chars;
                 await Task.Delay(12);
             }
+            button4.Enabled = true;
         }
 
         async void proccount()
@@ -73,6 +70,7 @@ namespace Environment_Detection
                 label5.Text += chars;
                 await Task.Delay(12);
             }
+            button5.Enabled = true;
         }
         async void path()
         {
@@ -82,6 +80,7 @@ namespace Environment_Detection
                 label6.Text += chars;
                 await Task.Delay(12);
             }
+            button6.Enabled = true;
         }
         async void name()
         {
@@ -91,6 +90,7 @@ namespace Environment_Detection
                 label7.Text += chars;
                 await Task.Delay(12);
             }
+            button7.Enabled = true;
         }
 
         void Button2_Click(object sender, EventArgs e)

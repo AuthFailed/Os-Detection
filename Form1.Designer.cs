@@ -57,7 +57,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label2.Location = new System.Drawing.Point(12, 64);
+            this.label2.Location = new System.Drawing.Point(128, 60);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(630, 33);
             this.label2.TabIndex = 1;
@@ -65,7 +65,7 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label3.Location = new System.Drawing.Point(12, 97);
+            this.label3.Location = new System.Drawing.Point(128, 93);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(630, 33);
             this.label3.TabIndex = 2;
@@ -73,7 +73,7 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label4.Location = new System.Drawing.Point(12, 130);
+            this.label4.Location = new System.Drawing.Point(128, 126);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(630, 33);
             this.label4.TabIndex = 3;
@@ -81,7 +81,7 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label5.Location = new System.Drawing.Point(12, 163);
+            this.label5.Location = new System.Drawing.Point(128, 159);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(630, 33);
             this.label5.TabIndex = 4;
@@ -89,7 +89,7 @@
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label6.Location = new System.Drawing.Point(12, 196);
+            this.label6.Location = new System.Drawing.Point(128, 192);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(630, 33);
             this.label6.TabIndex = 5;
@@ -97,7 +97,7 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label7.Location = new System.Drawing.Point(12, 229);
+            this.label7.Location = new System.Drawing.Point(128, 225);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(630, 33);
             this.label7.TabIndex = 6;
@@ -106,11 +106,12 @@
             // 
             this.button2.AutoEllipsis = true;
             this.button2.AutoSize = true;
+            this.button2.Enabled = false;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(635, 64);
+            this.button2.Location = new System.Drawing.Point(1, 60);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(121, 33);
             this.button2.TabIndex = 8;
@@ -123,11 +124,12 @@
             // 
             this.button3.AutoEllipsis = true;
             this.button3.AutoSize = true;
+            this.button3.Enabled = false;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.Location = new System.Drawing.Point(635, 97);
+            this.button3.Location = new System.Drawing.Point(1, 93);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(121, 33);
             this.button3.TabIndex = 9;
@@ -140,11 +142,12 @@
             // 
             this.button4.AutoEllipsis = true;
             this.button4.AutoSize = true;
+            this.button4.Enabled = false;
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button4.Location = new System.Drawing.Point(635, 130);
+            this.button4.Location = new System.Drawing.Point(1, 126);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(121, 33);
             this.button4.TabIndex = 10;
@@ -157,11 +160,12 @@
             // 
             this.button5.AutoEllipsis = true;
             this.button5.AutoSize = true;
+            this.button5.Enabled = false;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button5.Location = new System.Drawing.Point(635, 163);
+            this.button5.Location = new System.Drawing.Point(1, 159);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(121, 33);
             this.button5.TabIndex = 11;
@@ -174,11 +178,12 @@
             // 
             this.button6.AutoEllipsis = true;
             this.button6.AutoSize = true;
+            this.button6.Enabled = false;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button6.Location = new System.Drawing.Point(635, 196);
+            this.button6.Location = new System.Drawing.Point(1, 192);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(121, 33);
             this.button6.TabIndex = 12;
@@ -191,11 +196,12 @@
             // 
             this.button7.AutoEllipsis = true;
             this.button7.AutoSize = true;
+            this.button7.Enabled = false;
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button7.Location = new System.Drawing.Point(635, 229);
+            this.button7.Location = new System.Drawing.Point(1, 225);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(121, 33);
             this.button7.TabIndex = 13;
@@ -206,11 +212,12 @@
             // 
             // button1
             // 
+            this.button1.Enabled = false;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(635, 268);
+            this.button1.Location = new System.Drawing.Point(1, 264);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 46);
             this.button1.TabIndex = 14;
