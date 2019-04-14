@@ -57,7 +57,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label2.Location = new System.Drawing.Point(128, 60);
+            this.label2.Location = new System.Drawing.Point(128, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(630, 33);
             this.label2.TabIndex = 1;
@@ -65,7 +65,7 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label3.Location = new System.Drawing.Point(128, 93);
+            this.label3.Location = new System.Drawing.Point(128, 97);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(630, 33);
             this.label3.TabIndex = 2;
@@ -73,7 +73,7 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label4.Location = new System.Drawing.Point(128, 126);
+            this.label4.Location = new System.Drawing.Point(128, 130);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(630, 33);
             this.label4.TabIndex = 3;
@@ -81,7 +81,7 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label5.Location = new System.Drawing.Point(128, 159);
+            this.label5.Location = new System.Drawing.Point(128, 163);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(630, 33);
             this.label5.TabIndex = 4;
@@ -89,7 +89,7 @@
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label6.Location = new System.Drawing.Point(128, 192);
+            this.label6.Location = new System.Drawing.Point(128, 196);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(630, 33);
             this.label6.TabIndex = 5;
@@ -97,7 +97,7 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Italic);
-            this.label7.Location = new System.Drawing.Point(128, 225);
+            this.label7.Location = new System.Drawing.Point(128, 229);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(630, 33);
             this.label7.TabIndex = 6;
@@ -113,7 +113,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(1, 60);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 33);
+            this.button2.Size = new System.Drawing.Size(121, 30);
             this.button2.TabIndex = 8;
             this.button2.TabStop = false;
             this.button2.Text = "Копировать";
@@ -131,7 +131,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.Location = new System.Drawing.Point(1, 93);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(121, 33);
+            this.button3.Size = new System.Drawing.Size(121, 30);
             this.button3.TabIndex = 9;
             this.button3.TabStop = false;
             this.button3.Text = "Копировать";
@@ -149,7 +149,7 @@
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.Location = new System.Drawing.Point(1, 126);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(121, 33);
+            this.button4.Size = new System.Drawing.Size(121, 30);
             this.button4.TabIndex = 10;
             this.button4.TabStop = false;
             this.button4.Text = "Копировать";
@@ -167,7 +167,7 @@
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button5.Location = new System.Drawing.Point(1, 159);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(121, 33);
+            this.button5.Size = new System.Drawing.Size(121, 30);
             this.button5.TabIndex = 11;
             this.button5.TabStop = false;
             this.button5.Text = "Копировать";
@@ -185,7 +185,7 @@
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button6.Location = new System.Drawing.Point(1, 192);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(121, 33);
+            this.button6.Size = new System.Drawing.Size(121, 30);
             this.button6.TabIndex = 12;
             this.button6.TabStop = false;
             this.button6.Text = "Копировать";

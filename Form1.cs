@@ -25,6 +25,7 @@ namespace Environment_Detection
             {
                 await Task.Delay(5);
             }
+            await Task.Delay(800);
             button1.Enabled = true;
         }
 
