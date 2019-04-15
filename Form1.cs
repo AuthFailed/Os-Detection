@@ -23,9 +23,9 @@ namespace Environment_Detection
             name();
             for (Opacity = 0; Opacity < .95; Opacity += .03)
             {
-                await Task.Delay(5);
+                await Task.Delay(5).ConfigureAwait(false);
             }
-            await Task.Delay(800);
+            await Task.Delay(800).ConfigureAwait(false);
             button1.Enabled = true;
         }
 
