@@ -106,6 +106,7 @@ namespace Environment_Detection
             Clipboard.SetText(label2.Text);
             Form2 childForm = new Form2();
             childForm.Show();
+            Activate();
         }
 
         void Button3_Click(object sender, EventArgs e)
@@ -114,6 +115,7 @@ namespace Environment_Detection
             Clipboard.SetText(label3.Text);
             Form2 childForm = new Form2();
             childForm.Show();
+            Activate();
         }
 
         void Button4_Click(object sender, EventArgs e)
@@ -122,6 +124,7 @@ namespace Environment_Detection
             Clipboard.SetText(label4.Text);
             Form2 childForm = new Form2();
             childForm.Show();
+            Activate();
         }
 
         void Button5_Click(object sender, EventArgs e)
@@ -130,6 +133,7 @@ namespace Environment_Detection
             Clipboard.SetText(label5.Text);
             Form2 childForm = new Form2();
             childForm.Show();
+            Activate();
         }
 
         void Button6_Click(object sender, EventArgs e)
@@ -138,6 +142,7 @@ namespace Environment_Detection
             Clipboard.SetText(label6.Text);
             Form2 childForm = new Form2();
             childForm.Show();
+            Activate();
         }
 
         void Button7_Click(object sender, EventArgs e)
@@ -146,6 +151,7 @@ namespace Environment_Detection
             Clipboard.SetText(label7.Text);
             Form2 childForm = new Form2();
             childForm.Show();
+            Activate();
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -154,6 +160,7 @@ namespace Environment_Detection
             Clipboard.SetText(label2.Text + "\n" + label3.Text + "\n" + label4.Text + "\n" + label5.Text + "\n" + label6.Text + "\n" +label7.Text);
             Form2 childForm = new Form2();
             childForm.Show();
+            Activate();
         }
     }
 }

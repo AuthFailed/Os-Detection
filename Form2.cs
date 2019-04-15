@@ -12,41 +12,31 @@ namespace EnvDetection
             InitializeComponent();
         }
 
-        async void Plavno()
+        async void ПлавноВыкл()
         {
-            for (Opacity = Opacity; Opacity > 0; Opacity -= .03)
+            for (Opacity = Opacity; Opacity > 0; Opacity -= .02)
             {
-                await Task.Delay(5).ConfigureAwait(false);
+                await Task.Delay(2).ConfigureAwait(false);
             }
             Close();
+        }
+
+        async void ПлавноВкл()
+        {
+            for (Opacity = 0; Opacity < .93; Opacity += .02)
+            {
+                await Task.Delay(2).ConfigureAwait(false);
+            }
         }
 
         async void Form2_Load(object sender, EventArgs e)
         {
-            for (Opacity = 0; Opacity < .93; Opacity += .03)
-            {
-                await Task.Delay(5).ConfigureAwait(false);
-            }
+            ПлавноВкл();
             await Task.Delay(1200);
-            Plavno();
+            ПлавноВыкл();
         }
 
-        void Label1_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        void Label2_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        void PictureBox1_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        void Form2_Click(object sender, EventArgs e)
+        void PictureBox1_Click_1(object sender, EventArgs e)
         {
             Close();
         }

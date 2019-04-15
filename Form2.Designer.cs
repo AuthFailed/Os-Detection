@@ -43,7 +43,7 @@
             this.label1.Size = new System.Drawing.Size(120, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Внимание!";
-            this.label1.Click += new System.EventHandler(this.Label1_Click);
+            this.label1.Click += new System.EventHandler(this.PictureBox1_Click_1);
             // 
             // label2
             // 
@@ -53,7 +53,7 @@
             this.label2.Size = new System.Drawing.Size(261, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Информация была скопирована.";
-            this.label2.Click += new System.EventHandler(this.Label2_Click);
+            this.label2.Click += new System.EventHandler(this.PictureBox1_Click_1);
             // 
             // pictureBox1
             // 
@@ -64,12 +64,13 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click_1);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(367, 72);
             this.ControlBox = false;
@@ -89,7 +90,7 @@
             this.Text = "Уведомление";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form2_Load);
-            this.Click += new System.EventHandler(this.Form2_Click);
+            this.Click += new System.EventHandler(this.PictureBox1_Click_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
