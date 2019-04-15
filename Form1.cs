@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EnvDetection;
+using System;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -11,6 +12,7 @@ namespace Environment_Detection
             InitializeComponent();
         }
 
+        Form2 fr2 = new Form2();
         // Добавляем уведомления при копировании
         readonly NotifyIcon NI = new NotifyIcon();
         async void Ni()
@@ -116,49 +118,56 @@ namespace Environment_Detection
         {
             Clipboard.Clear();
             Clipboard.SetText(label2.Text);
-            Ni();
+            Form2 childForm = new Form2();
+            childForm.Show();
         }
 
         void Button3_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label3.Text);
-            Ni();
+            Form2 childForm = new Form2();
+            childForm.Show();
         }
 
         void Button4_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label4.Text);
-            Ni();
+            Form2 childForm = new Form2();
+            childForm.Show();
         }
 
         void Button5_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label5.Text);
-            Ni();
+            Form2 childForm = new Form2();
+            childForm.Show();
         }
 
         void Button6_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label6.Text);
-            Ni();
+            Form2 childForm = new Form2();
+            childForm.Show();
         }
 
         void Button7_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label7.Text);
-            Ni();
+            Form2 childForm = new Form2();
+            childForm.Show();
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label2.Text + "\n" + label3.Text + "\n" + label4.Text + "\n" + label5.Text + "\n" + label6.Text + "\n" +label7.Text);
-            Ni();
+            Form2 childForm = new Form2();
+            childForm.Show();
         }
     }
 }
