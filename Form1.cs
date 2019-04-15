@@ -130,6 +130,7 @@ namespace Environment_Detection
         {
             Clipboard.Clear();
             Clipboard.SetText(label4.Text);
+            Ni();
         }
 
         void Button5_Click(object sender, EventArgs e)
