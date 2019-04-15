@@ -14,12 +14,12 @@ namespace Environment_Detection
 
         async void Form1_Load(object sender, EventArgs e)
         {
-            Osinfo();
-            Procmodel();
-            Razryad();
-            Proccount();
-            Path();
-            Username();
+            OsinfoAsync();
+            ProcmodelAsync();
+            RazryadAsync();
+            ProccountAsync();
+            PathAsync();
+            UsernameAsync();
             for (Opacity = 0; Opacity < .95; Opacity += .03)
             {
                 await Task.Delay(5).ConfigureAwait(false);
@@ -29,7 +29,7 @@ namespace Environment_Detection
         }
 
         // Узнаем версию операционной системы
-        async void Osinfo()
+        async void OsinfoAsync()
         {
             char[] ch_osversion = ("Операционная система: " + Environment.OSVersion.ToString()).ToCharArray();
             foreach (char chars in ch_osversion)
@@ -41,7 +41,7 @@ namespace Environment_Detection
         }
 
         // Узнаем модель процессора
-        async void Procmodel()
+        async void ProcmodelAsync()
         {
             char[] ch_procmodel = ("Модель процессора: " + Environment.GetEnvironmentVariable("PROCESSOR_IDENTIFIER")).ToCharArray();
             foreach(char chars in ch_procmodel)
@@ -53,7 +53,7 @@ namespace Environment_Detection
         }   
         
         // Узнаем разрядность
-        async void Razryad()
+        async void RazryadAsync()
         {
             char[] ch_procmodel = ("Разрядность: " + Environment.GetEnvironmentVariable("PROCESSOR_ARCHITECTURE")).ToCharArray();
             foreach (char chars in ch_procmodel)
@@ -65,7 +65,7 @@ namespace Environment_Detection
         }
 
         // Узнаем кол-во ядер
-        async void Proccount()
+        async void ProccountAsync()
         {
             char[] ch_proccount = ("Кол-во ядер: " + Environment.ProcessorCount.ToString()).ToCharArray();
             foreach (char chars in ch_proccount)
@@ -77,7 +77,7 @@ namespace Environment_Detection
         }
         
         // Узнаем путь к системному каталогу
-        async void Path()
+        async void PathAsync()
         {
             char[] ch_path = ("Путь к системному каталогу: " + Environment.SystemDirectory).ToCharArray();
             foreach (char chars in ch_path)
@@ -89,7 +89,7 @@ namespace Environment_Detection
         }
 
         // Узнаем имя пользователя
-        async void Username()
+        async void UsernameAsync()
         {
             char[] ch_name = (("Имя пользователя: " + Environment.UserName).ToCharArray());
             foreach (char chars in ch_name)
@@ -100,67 +100,60 @@ namespace Environment_Detection
             button7.Enabled = true;
         }
 
+        void Notification()
+        {
+        Form2 childForm = new Form2();
+        childForm.Show();
+            Activate();
+        }
+
         void Button2_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label2.Text);
-            Form2 childForm = new Form2();
-            childForm.Show();
-            Activate();
+            Notification();
         }
 
         void Button3_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label3.Text);
-            Form2 childForm = new Form2();
-            childForm.Show();
-            Activate();
+            Notification();
         }
 
         void Button4_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label4.Text);
-            Form2 childForm = new Form2();
-            childForm.Show();
-            Activate();
+            Notification();
         }
 
         void Button5_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label5.Text);
-            Form2 childForm = new Form2();
-            childForm.Show();
-            Activate();
+            Notification();
         }
 
         void Button6_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label6.Text);
-            Form2 childForm = new Form2();
-            childForm.Show();
-            Activate();
+            Notification();
         }
 
         void Button7_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label7.Text);
-            Form2 childForm = new Form2();
-            childForm.Show();
-            Activate();
+            Notification();
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
             Clipboard.Clear();
             Clipboard.SetText(label2.Text + "\n" + label3.Text + "\n" + label4.Text + "\n" + label5.Text + "\n" + label6.Text + "\n" +label7.Text);
-            Form2 childForm = new Form2();
-            childForm.Show();
-            Activate();
+            Notification();
         }
     }
 }

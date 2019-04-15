@@ -12,6 +12,14 @@ namespace EnvDetection
             InitializeComponent();
         }
 
+        async void ПлавноВкл()
+        {
+            for (; Opacity < .93; Opacity += .02)
+            {
+                await Task.Delay(2).ConfigureAwait(false);
+            }
+        }
+
         async void ПлавноВыкл()
         {
             for (Opacity = Opacity; Opacity > 0; Opacity -= .02)
@@ -19,14 +27,6 @@ namespace EnvDetection
                 await Task.Delay(2).ConfigureAwait(false);
             }
             Close();
-        }
-
-        async void ПлавноВкл()
-        {
-            for (Opacity = 0; Opacity < .93; Opacity += .02)
-            {
-                await Task.Delay(2).ConfigureAwait(false);
-            }
         }
 
         async void Form2_Load(object sender, EventArgs e)
