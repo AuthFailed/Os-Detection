@@ -18,6 +18,7 @@ namespace EnvDetection
             {
                 await Task.Delay(5).ConfigureAwait(false);
             }
+            Close();
         }
 
         async void Form2_Load(object sender, EventArgs e)
@@ -30,24 +31,24 @@ namespace EnvDetection
             Plavno();
         }
 
-        private void Label1_Click(object sender, EventArgs e)
+        void Label1_Click(object sender, EventArgs e)
         {
-            Plavno();
+            Close();
         }
 
-        private void Label2_Click(object sender, EventArgs e)
+        void Label2_Click(object sender, EventArgs e)
         {
-            Plavno();
+            Close();
         }
 
-        private void PictureBox1_Click(object sender, EventArgs e)
+        void PictureBox1_Click(object sender, EventArgs e)
         {
-            Plavno();
+            Close();
         }
 
-        private void Form2_Click(object sender, EventArgs e)
+        void Form2_Click(object sender, EventArgs e)
         {
-            Plavno();
+            Close();
         }
     }
 }

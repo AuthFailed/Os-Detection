@@ -77,6 +77,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(1551, 976);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -85,7 +86,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Form2";
+            this.Text = "Уведомление";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.Form2_Load);
             this.Click += new System.EventHandler(this.Form2_Click);
