@@ -12,7 +12,7 @@ namespace EnvDetection
             InitializeComponent();
         }
 
-        async void plavno()
+        async void Plavno()
         {
             for (Opacity = Opacity; Opacity > 0; Opacity -= .03)
             {
@@ -27,27 +27,27 @@ namespace EnvDetection
                 await Task.Delay(5).ConfigureAwait(false);
             }
             await Task.Delay(1200);
-            plavno();
+            Plavno();
         }
 
         private void Label1_Click(object sender, EventArgs e)
         {
-            plavno();
+            Plavno();
         }
 
         private void Label2_Click(object sender, EventArgs e)
         {
-            plavno();
+            Plavno();
         }
 
         private void PictureBox1_Click(object sender, EventArgs e)
         {
-            plavno();
+            Plavno();
         }
 
         private void Form2_Click(object sender, EventArgs e)
         {
-            plavno();
+            Plavno();
         }
     }
 }

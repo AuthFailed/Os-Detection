@@ -12,20 +12,6 @@ namespace Environment_Detection
             InitializeComponent();
         }
 
-        Form2 fr2 = new Form2();
-        // Добавляем уведомления при копировании
-        readonly NotifyIcon NI = new NotifyIcon();
-        async void Ni()
-        {
-            NI.BalloonTipText = "Информация была скопирована.";
-            NI.BalloonTipTitle = "Внимание!";
-            NI.Icon = this.Icon;
-            NI.Visible = true;
-            NI.ShowBalloonTip(300);
-            await Task.Delay(2000);
-            NI.Visible = false;
-        }
-
         async void Form1_Load(object sender, EventArgs e)
         {
             Osinfo();
