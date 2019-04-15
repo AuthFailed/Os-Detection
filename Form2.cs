@@ -36,9 +36,6 @@ namespace EnvDetection
             ПлавноВыкл();
         }
 
-        void PictureBox1_Click_1(object sender, EventArgs e)
-        {
-            Close();
-        }
+        void PictureBox1_Click_1(object sender, EventArgs e) => Close();
     }
 }
