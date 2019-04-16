@@ -14,13 +14,13 @@ namespace Environment_Detection
 
         async void Form1_Load(object sender, EventArgs e)
         {
-            OsinfoAsync();
+            OsInfoAsync();
             ProcmodelAsync();
             RazryadAsync();
             ProccountAsync();
             PathAsync();
             UsernameAsync();
-            for (Opacity = 0; Opacity < .95; Opacity += .03)
+            for (; Opacity < .95; Opacity += .03)
             {
                 await Task.Delay(5).ConfigureAwait(false);
             }
@@ -29,13 +29,13 @@ namespace Environment_Detection
         }
 
         // Узнаем версию операционной системы
-        async void OsinfoAsync()
+        async void OsInfoAsync()
         {
-            char[] ch_osversion = ("Операционная система: " + Environment.OSVersion.ToString()).ToCharArray();
+            char[] ch_osversion = (("Операционная система: " + Environment.OSVersion).ToCharArray());
             foreach (char chars in ch_osversion)
             {
-                label2.Text += chars;
                 await Task.Delay(12);
+                label2.Text += chars;
             }
             button2.Enabled = true;
         }
@@ -46,8 +46,8 @@ namespace Environment_Detection
             char[] ch_procmodel = ("Модель процессора: " + Environment.GetEnvironmentVariable("PROCESSOR_IDENTIFIER")).ToCharArray();
             foreach(char chars in ch_procmodel)
             {
-                label3.Text += chars;
                 await Task.Delay(12);
+                label3.Text += chars;
             }
             button3.Enabled = true;
         }   
@@ -58,8 +58,8 @@ namespace Environment_Detection
             char[] ch_procmodel = ("Разрядность: " + Environment.GetEnvironmentVariable("PROCESSOR_ARCHITECTURE")).ToCharArray();
             foreach (char chars in ch_procmodel)
             {
-                label4.Text += chars;
                 await Task.Delay(12);
+                label4.Text += chars;
             }
             button4.Enabled = true;
         }
@@ -70,8 +70,8 @@ namespace Environment_Detection
             char[] ch_proccount = ("Кол-во ядер: " + Environment.ProcessorCount.ToString()).ToCharArray();
             foreach (char chars in ch_proccount)
             {
-                label5.Text += chars;
                 await Task.Delay(12);
+                label5.Text += chars;
             }
             button5.Enabled = true;
         }
@@ -82,8 +82,8 @@ namespace Environment_Detection
             char[] ch_path = ("Путь к системному каталогу: " + Environment.SystemDirectory).ToCharArray();
             foreach (char chars in ch_path)
             {
-                label6.Text += chars;
                 await Task.Delay(12);
+                label6.Text += chars;
             }
             button6.Enabled = true;
         }
@@ -94,16 +94,16 @@ namespace Environment_Detection
             char[] ch_name = (("Имя пользователя: " + Environment.UserName).ToCharArray());
             foreach (char chars in ch_name)
             {
+                await Task.Delay(12).ConfigureAwait(false);
                 label7.Text += chars;
-                await Task.Delay(12);
             }
             button7.Enabled = true;
         }
 
         void Notification()
         {
-        Form2 childForm = new Form2();
-        childForm.Show();
+            Form2 childForm = new Form2();
+            childForm.Show();
             Activate();
         }
 
