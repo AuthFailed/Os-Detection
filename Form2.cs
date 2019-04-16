@@ -31,6 +31,9 @@ namespace EnvDetection
 
         async void Form2_Load(object sender, EventArgs e)
         {
+            int width = Screen.PrimaryScreen.Bounds.Width;
+            int height = Screen.PrimaryScreen.Bounds.Height;
+            Location = new System.Drawing.Point(width - Size.Width-3, height - Size.Height-34);
             ПлавноВкл();
             await Task.Delay(1200);
             ПлавноВыкл();
